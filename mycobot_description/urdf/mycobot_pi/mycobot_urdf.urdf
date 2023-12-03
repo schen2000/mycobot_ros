@@ -11,12 +11,14 @@
       </geometry>
       <origin xyz = "0.0 0 -0.03" rpy = "0 0 1.5708"/>
     </visual>
+    <!--
     <collision>
       <geometry>
         <mesh filename="package://mycobot_description/urdf/mycobot_pi/G_base.dae"/>
       </geometry>
       <origin xyz = "0.0 0 -0.03" rpy = "0 0 1.5708"/>
     </collision>
+    -->
   </link>
 
   <link name="joint1">
