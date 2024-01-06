@@ -194,12 +194,14 @@
     <!-- <origin xyz = "0.0 0 0 " rpy = " 0 0 0"/> -->
 
     </visual>
+    <!--
     <collision>
       <geometry>
        <mesh filename="package://mycobot_description/urdf/mycobot/gripper_left3.dae"/>
       </geometry>
     <origin xyz = "0.012 0.0025 -0.012" rpy = " 0 0 0"/>
     </collision>
+      -->
   </link>
 
   <link name="gripper_right1">
@@ -239,12 +241,16 @@
       </geometry>
     <origin xyz = "-0.012 0.0025 -0.012 " rpy = " 0 0 0"/>
     </visual>
+    
+    <!--
     <collision>
       <geometry>
        <mesh filename="package://mycobot_description/urdf/mycobot/gripper_right3.dae"/>
       </geometry>
     <origin xyz = "-0.012 0.0025 -0.012" rpy = " 0 0 0"/>
     </collision>
+	-->    
+    
   </link>
 
 
