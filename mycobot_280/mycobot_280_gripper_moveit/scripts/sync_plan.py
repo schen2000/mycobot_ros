@@ -14,7 +14,8 @@ def callback(data):
 
     data_list = []
     for index, value in enumerate(data.position):
-        data_list.append(round(value, 3))
+        #data_list.append(round(value, 3))
+        data_list.append(value)
     data_list = data_list[:7]
     print("radians:%s" % data_list[:6])
     # t1 = time.time()
@@ -32,7 +33,7 @@ def listener():
     global mc
     rospy.init_node("mycobot_reciver", anonymous=True)
     port = rospy.get_param("~port", "/dev/ttyUSB0")
-    baud = rospy.get_param("~baud", 115200)
+    baud = rospy.get_param("~baud", 1000000)
     print(port, baud)
     mc = MyCobot(port, baud)
     rospy.Subscriber("joint_states", JointState, callback)
