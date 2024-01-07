@@ -123,6 +123,9 @@
     <disable_collisions link1="gripper_right3" link2="joint5" reason="Never"/>
     <disable_collisions link1="gripper_right3" link2="joint6" reason="Never"/>
     <disable_collisions link1="gripper_right3" link2="joint6_flange" reason="Never"/>
+    <disable_collisions link1="gripper_right3" link2="gripper_left3" reason="Adjacent"/>
+    <disable_collisions link1="gripper_right2" link2="gripper_left2" reason="Adjacent"/>
+    <disable_collisions link1="gripper_right1" link2="gripper_left1" reason="Adjacent"/>
     <disable_collisions link1="joint1" link2="joint2" reason="Adjacent"/>
     <disable_collisions link1="joint2" link2="joint3" reason="Adjacent"/>
     <disable_collisions link1="joint3" link2="joint4" reason="Adjacent"/>
